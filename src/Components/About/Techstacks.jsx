@@ -1,6 +1,6 @@
 import React from "react";
 import "./Techstacks.css";
-import { FaReact, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaLayerGroup } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
@@ -12,6 +12,17 @@ import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
+import { BiSolidUserAccount } from "react-icons/bi";
+import { IoMdBookmarks } from "react-icons/io";
+import { HiTemplate } from "react-icons/hi";
+import { MdDeviceHub, MdLeaderboard, MdOutlineGroups, MdOutlineGroups3 } from "react-icons/md";
+import { FaHandsHelping } from "react-icons/fa";
+import { BsTransparency } from "react-icons/bs";
+import { CgAttribution } from "react-icons/cg";
+
+
+
+
 
 export const Techstacks = () => {
   return (
@@ -19,55 +30,54 @@ export const Techstacks = () => {
       <div className="section main" data-aos="fade-right">
         <h2 className="section__title different">Skill Set</h2>
         <div className="techsection">
-          <div>
-            <SiJavascript />
-            <h5>Lead Generation</h5>
-          </div>
-          <div>
-            <DiCss3 />
-            <h5>Cold Calling</h5>
-          </div>
-          <div>
-            <FaReact />
-            <h5>Revenue Growth</h5>
-          </div>
-          <div>
-            <SiHtml5 />
-            <h5>Team Managenment</h5>
-          </div>
+            <div>
+            <FaLayerGroup />
+              <h5>B2B Sales Expertise</h5>
+            </div>
+            <div>
+            <IoMdBookmarks />
+              <h5>Prospect Qualification</h5>
+            </div>
+            <div>
+              <HiTemplate />
+              <h5>Product Demonstration</h5>
+            </div>
+            <div>
+              <MdOutlineGroups />
+              <h5>Negotiation</h5>
+            </div>
+        
+            <div>
+              <FaHandsHelping />
+              <h5>Relationship Building</h5>
+            </div>
+            <div>
+              <MdLeaderboard />
+              <h5>Leadership</h5>
+            </div>
+            <div>
+              <DiMongodb />
+              <h5>Data Analysis</h5>
+            </div>
 
-          <div>
-            <SiRedux />
-            <h5>Relationship Building</h5>
-          </div>
-          <div>
-            <FaNodeJs />
-            <h5>Market Intelligence</h5>
-          </div>
-          <div>
-            <DiMongodb />
-            <h5>Reporting and Analysis</h5>
-          </div>
+            <div>
+              <MdDeviceHub />
+              <h5>Training & Development</h5>
+            </div>
+            <div>
+              <FaLayerGroup />
+              <h5>Sales Techniques</h5>
+            </div>
 
-          <div>
-            <SiExpress />
-            <h5>Client Acquisition</h5>
+            <div>
+              <CgAttribution />
+              <h5>Technology Utilization</h5>
+            </div>
+            <div>
+              <IoMdBookmarks />
+              <h5>Market Insights</h5>
+            </div>
           </div>
-
-          {/* <div>
-            <SiTailwindcss />
-            <h5>Tailwind</h5>
-          </div>
-          
-          <div>
-            <SiNetlify />
-            <h5>Netlify</h5>
-          </div>
-          <div>
-            <VscGithub />
-            <h5>Github</h5>
-          </div> */}
-        </div>
       </div>
     </>
   );
