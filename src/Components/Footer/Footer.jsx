@@ -8,13 +8,13 @@ export const Footer = () => {
   return (
     <>
       <div className={"section " + themename}>
-        <a
+        {/* <a
           href="https://github.com/roohitgupta"
           rel="noreferrer"
           target="_blank"
-        >
+        > */}
           <h3 className="footer">Made with ❤ By Nikhil Jain</h3>
-        </a>
+        {/* </a> */}
       </div>
     </>
   );
